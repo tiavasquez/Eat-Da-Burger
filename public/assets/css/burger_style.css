@@ -1,0 +1,64 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: rgb(155, 172, 248);
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1em;
+	position: relative;
+}
+
+.container {
+	text-align: center;
+}
+
+.submit-row {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(70, 34, 34);
+	letter-spacing: 2px;
+	margin-top: 2%;
+}
+
+h5 {
+	margin-top: 6%;
+	text-align: center;
+}
+
+img {
+	width: 25%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+	padding: 20px;
+}
+
+input#name {
+	width: 25%;
+	padding: 2%;
+}
+
+button.addBurgerButton {
+	position: absolute;
+	bottom: 8%;
+	left: 45%;
+	background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 10%;
+
+}
